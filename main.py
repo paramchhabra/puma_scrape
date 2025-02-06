@@ -1,7 +1,7 @@
 from bs_url import *
 from refresh import *
 from product_data import *
-QUERY = 'jacket'
+QUERY = 'shoes'
 
 prod_url = save_ids_get_url(QUERY)
 refresh_cookie(prod_url)

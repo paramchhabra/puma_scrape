@@ -27,9 +27,9 @@ def refresh_cookie(url):
     time.sleep(5)
 
     perf = driver.get_log('performance')
-    with open("essentials.json", "w") as f:
-        f.write("{\}")
-        f.close()
+    # with open("essentials.json", "w") as f:
+    #     f.write("{}")
+    #     f.close()
     with open("essentials.json", "r+") as g:
         data = json.load(g)
 
