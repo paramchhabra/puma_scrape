@@ -11,7 +11,7 @@ def create_session():
         f.close()
     
 
-    proxy = "http://bab9fae56e593e516aac:ff79e32368110bf2@gw.dataimpulse.com:823"
+    proxy = "****"
     proxies = {"http":proxy, "https":proxy}
 
     session = requests.Session()
